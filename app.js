@@ -10,3 +10,20 @@ function omaFunktio() {
     document.getElementById("tulos").innerHTML = x * x;
   }
 
+
+
+
+
+
+
+
+  
+// lottonumerot
+let lottoNumerot = [3,7,8,12,15,19,22];
+console.log(lottoNumerot);
+let rivi = document.createElement("p");
+rivi.textContent = lottoNumerot[0];
+let lottoRivi = document.getElementById("lotto");
+lottoRivi.appendChild(rivi);
+
+
